@@ -8,9 +8,11 @@ import com.zhengong.reservation.landon.data.repository.GuestRepository;
 import com.zhengong.reservation.landon.data.repository.ReservationRepository;
 import com.zhengong.reservation.landon.data.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service
 public class ReservationService {
 
     private RoomRepository roomRepository;
